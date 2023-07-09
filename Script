@@ -1,0 +1,198 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Marvel: New Liberty Script", "Sentinel")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Hide ui")
+Section:NewButton("Delete ui", "", function()
+    print("Clicked")
+    local args = {
+    [1] = "Misc is not a valid member of ReplicatedStorage \"ReplicatedStorage\"",
+    [2] = "Players.LocalPlayer.PlayerGui.CharacterSelection.CharacterSelecter.The Child.ViewportFrame.Default.Ragdoll.Ragdoll, line 7\n",
+    [3] = "Players.LocalPlayer.PlayerGui.CharacterSelection.CharacterSelecter.The Child.ViewportFrame.Default.Ragdoll.Ragdoll"
+}
+
+game:GetService("ReplicatedStorage").GameAnalyticsError:FireServer(unpack(args))
+
+game:GetService("Players").LocalPlayer.PlayerGui.CharacterSelection:destroy()
+    game:GetService("Workspace")["Selection_Background"]:destroy()
+end)
+local Section = Tab:NewSection("Charaecter Selection")
+Section:NewButton("Agatha Harkness", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Agatha Harkness"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Atomic Eve", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Atomic Eve"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Charmcaster", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Charmcaster"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Emma Frost", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Emma Frost"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Gwen", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Gwen"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Jean Grey: Dark Phoenix", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Jean Grey: Dark Phoenix"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Jean Grey: Phoenix Force", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Jean Grey: Phoenix Force"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Lauren Strucker", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Lauren Strucker"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Madison", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Madison"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Maleficent", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Maleficent"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Nicki", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Nicki"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Polaris Lorna Dane", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Polaris Lorna Dane"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Prom Gwen", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Prom Gwen"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Scarlet Witch: House Of Magneto", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Scarlet Witch: House Of Magneto"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Scarlet Witch: Multiverse Of Madness", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Scarlet Witch: Multiverse Of Madness"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Star Sapphire", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Star Sapphire"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Starfire", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Starfire"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("Terri Joe", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "Terri Joe"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("The Child", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "The Child"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
+Section:NewButton("White raven", "", function()
+    print("Clicked")
+    local args = {
+        [1] = "Custom",
+        [2] = "White raven"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CharacterSelection:InvokeServer(unpack(args))
+end)
